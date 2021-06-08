@@ -128,13 +128,13 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = BASE_DIR / 'static/images'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-AWS_QUERYSTRING_AUTH = False
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+#AWS_QUERYSTRING_AUTH = False
+#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
-AWS_ACCESS_KEY_ID = 'AKIA24MCSGHG2JNDAQX4'
-AWS_SECRET_ACCESS_KEY = '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'
+#AWS_ACCESS_KEY_ID = 'AWS_ACCESS_KEY'
+#AWS_SECRET_ACCESS_KEY = 'AWS_SECRET_KEY'
 
-AWS_STORAGE_BUCKET_NAME = 'photoshare-django-vish'
+#AWS_STORAGE_BUCKET_NAME = 'S3-Bucket-name'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
